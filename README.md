@@ -21,6 +21,8 @@ L'objectif était d'optimisez le référencement et accessibilité d'un site de 
 
 > Optimiser le référencement naturel d'un site web
 
+> Optimiser l'accessibilité d'un site web 
+
 &nbsp;
 
 &nbsp;
