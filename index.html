@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<!-- AJOUT D'UNE BALISE TITLE & DESCRIPTION -->
 	<title>Nina Carducci</title>
 	<meta name="title" content="Nina Carducci">
@@ -24,7 +24,36 @@
 	<meta property="twitter:title" content="Nina Carducci">
 	<meta property="twitter:description" content="Nina Carducci photographe professionnel à paris">
 	<meta property="twitter:image" content="https://mathyscogne.github.io/p9-openclassrooms/assets/images/nina.png">
-	<!--  -->
+
+	<!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
+	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "LocalBusiness",
+	  "name": "Nina Carducci",
+	  "image": "https://mathyscogne.github.io/p9-openclassrooms/assets/images/nina.png",
+	  "telephone": "05 56 67 78 89",
+	  "email": "contact@ninacarducci.fr",
+	  "priceRange": "$$",
+	  "address": {
+		 "@type": "PostalAddress",
+		 "streetAddress": "68 avenue Alsace-Lorraine",
+		 "addressLocality": "Bordeaux",
+		 "addressCountry": "France",
+		 "postalCode": "33000"
+	  },
+	  "openingHoursSpecification": {
+		 "@type": "OpeningHoursSpecification",
+		 "dayOfWeek": {
+			"@type": "DayOfWeek",
+			"name": "Monday Tuesday Wednesday Thursday Friday"
+		 },
+		 "opens": "09:00",
+		 "closes": "19:00"
+	  },
+	  "url": "https://mathyscogne.github.io/p9-openclassrooms/"
+	}
+	</script>
 	
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
@@ -210,12 +239,10 @@
 		<p>Photographe professionnel</p>
 		<p>©2023 - Tous droits réservés</p>
 	</div>
-
-	<div itemscope itemtype=”http://schema.org/Photograph>
-		<div itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress”>
-		<p itemprop=”streetAddress”>68 avenue Alsace-Lorraine, 33000 Bordeaux</p>
-		<p itemprop=”telephone”>05 56 67 78 89</p>
-		<p itemprop=”email”>contact@ninacarducci.fr</p>
+	<div>
+		<p>68 avenue Alsace-Lorraine, 33000 Bordeaux</p>
+		<p>05 56 67 78 89</p>
+		<p>contact@ninacarducci.fr</p>
 	</div>
 
 </footer>
